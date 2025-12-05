@@ -1,0 +1,57 @@
+
+# app 公共语言包
+app:
+  name: "Fspace"
+
+common:
+  noData: No data
+  noDataReload: No data yet, click Refresh
+  loadFail: Load failed
+  loadFailRetry: Load failed, click to try again
+  tryAgain: Try again
+  cancel: Cancel
+  confirm: Confirm
+  done: Done
+  refreshFaild: Refresh failed
+  httpNetError: The current network is slow, please try again
+  httpServiceError: The server is out of service
+  httpUnknownError: Something went wrong~
+  applyPayUnavailable: "This device does not support in-app purchase payment."
+  applePayNotFondProduct: "No product information was found."
+  applePayCancel: "Payment canceled"
+  applePayPayFail: "Payment failed"
+
+# 图片预览Page
+photoPreview:
+  allPhoto: All photos
+  addMore: Add more\naccessible photos
+  recentlyUse: Recently used
+  photoPermissionLimitTitle: "@:app.name can only access some photos. If you need to modify the photo access range, please go to settings."
+  photoPermissionLimitSet: Go to settings
+
+# 未授权Page
+SystemPermission:
+  title: Grant photo album permissions to experience AI gameplay
+  description: Need to access all photos, please go to the settings page to change permissions
+  authorization: Go to authorization
+
+# 图片裁剪
+photoCrop: 
+  cropTips: The picture supports a fixed aspect ratio. Please place your face within the frame
+  cropLoad: The image is being processed, please wait.
+
+photoPreviewMulti:
+  allPhoto: All photos
+  selectTitle1: Select ${count} photos
+  selectTitle2: Select ${minCount}-${maxCount} photos (Selected ${count})
+  next: Next
+  addMore: Add more\naccessible photos
+  selectTip: Up to ${maxSelectCount} image can be uploaded
+
+videoPreview:
+  allVideo: All videos
+  addMore: Add more\naccessible videos
+  selectTitle1: Select ${count} videos to extract audio
+  selectTitle2: Select ${minCount}-${maxCount} videos to extract audio (Selected ${count})
+  selectTip: Up to ${maxSelectCount} video can be uploaded
+  next: Next

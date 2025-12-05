@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # 禁用对 pubspec.yaml 中使用 http 协议的安全检查
+    secure_pubspec_urls: false
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "plugins/**"
+  errors:
+    invalid_annotation_target: ignore
+    unused_element: ignore
+  plugins:
+    - custom_lint

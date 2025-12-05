@@ -1,0 +1,7 @@
+base_locale: en_US
+input_directory: l10n
+input_file_pattern: .yaml
+output_directory: lib/generated/l10n
+output_file_name: l10n.dart
+translate_var: t
+

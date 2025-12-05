@@ -1,0 +1,1 @@
+class FfmpegNoAudioException implements Exception {}
